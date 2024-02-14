@@ -30,7 +30,6 @@ const r = new Discord.RichPresence()
     .setAssetsLargeText('Idling') // set image name (type any name)
     .setAssetsSmallImage('https://media.discordapp.net/attachments/1116694463658598412/1203880477870653440/idle.png?ex=65dbee90&is=65c97990&hm=21dee6be5f9850a571e87da31f963c29aadd97efb01d7311c4b19c63822f5d4f&=&format=webp&quality=lossless&width=473&height=473') 
     .setAssetsSmallText('zZz')
-    .addButton(null)//  // add button name and paste the link like discord server, youtube channel, etc.
      client.user.setActivity(r);
      client.user.setPresence({ status: "idle" }); // set your status (online,dnd, idle)
 })
